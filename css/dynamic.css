@@ -1,0 +1,57 @@
+#dynamic{
+    height: 510px;
+    background-color: #f4f4f7;
+}
+#dynamic .dynamic-title{
+    font-size: 30px;
+    color: #706d6b;
+    text-align: center;
+    line-height: 160px;
+}
+#dynamic .dynamic-list{
+    display: flex;
+    justify-content: space-around;
+}
+#dynamic .dynamic-list>li div{
+    width: 342px;
+    height: 132px;
+    margin-bottom: 36px;
+}
+#dynamic .dynamic-list>li div h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 42px;
+    padding-left: 20px;
+    color: white;
+}
+#dynamic .dynamic-list>li div p{
+    font-size: 18px;
+    padding-top: 14px;
+    padding-left: 20px;
+    color: white;
+}
+#dynamic .dynamic-list>li:nth-child(1) div{
+
+    background: url("../images/dynamic/1.png") no-repeat center;
+}
+#dynamic .dynamic-list>li:nth-child(2) div{
+    background: url("../images/dynamic/2.png") no-repeat center;
+}
+#dynamic .dynamic-list>li:nth-child(3) div{
+    background: url("../images/dynamic/3.png") no-repeat center;
+}
+
+#dynamic .dynamic-list>li p{
+    line-height: 27px;
+}
+#dynamic .dynamic-list>li p>span{
+    font-size: 15px;
+    color: #aaaaaa;
+}
+#dynamic .dynamic-list>li p>a{
+    font-size: 15px;
+    color: #706d6b;
+}
+#dynamic .dynamic-list>li p>a:hover{
+    text-decoration: underline;
+}

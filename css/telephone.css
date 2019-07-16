@@ -1,0 +1,112 @@
+#telephone{
+    height: 570px;
+    background-color: #141621;
+}
+#telephone .zixun{
+    margin: 27px;
+}
+#telephone .main{
+    margin-top: 55px;
+    width: 110px;
+}
+#telephone .result-title{
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    display: inline-block;
+}
+#telephone .result-telephone{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
+#telephone .result-btn{
+    display: inline-block;
+    padding: 3px 10px;
+    color: white;
+    border: 1px solid #aaaaaa;
+}
+#telephone .result-btn:hover{
+    color: #252526;
+    background-color: white;
+    cursor: pointer;
+}
+#telephone .result-list{
+    display: flex;
+    justify-content: space-around;
+}
+#telephone .result-list-item{
+    margin: 56px 30px 30px 10px;
+}
+#telephone .result-list-title{
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #aaaaaa;
+}
+#telephone .result-list-item .special{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#telephone .result-list-item .special-behind{
+    font-size: 13px;
+    line-height: 30px;
+    color: #aaaaaa;
+}
+#telephone .result-list-item .special-behind li:hover{
+    color: white;
+    cursor: pointer;
+}
+#telephone .result-list-item-detail{
+    font-size: 13px;
+    line-height: 30px;
+    color: #aaaaaa;
+}
+#telephone .result-list-item-detail:hover{
+    color: white;
+    cursor: pointer;
+}
+#telephone .jubao{
+    margin-top: 10px;
+}
+#telephone .active{
+    width: 90px;
+}
+#telephone .solution{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    border-bottom: 1px solid #444444;
+    border-top: 1px solid #444444;
+}
+#telephone .solution-title{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #aaaaaa;
+}
+#telephone .solution-item{
+    font-size: 13px;
+    color: #444444;
+    line-height: 60px;
+}
+#telephone .bottom{
+    width: 60px;
+    padding-top: 20px;
+    padding-left: 374px;
+}
+#telephone .solution-ways{
+    font-size: 13px;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+}
+#telephone .end{
+    padding-left: 622px;
+}
+#telephone .long{
+    width: 300px;
+}

@@ -1,0 +1,33 @@
+#server{
+    height: 930px;
+    background-image: url("../images/server/bg.png"),linear-gradient(#f1f1f5,#f1f1f5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#server .server-title{
+    font-size: 28px;
+    padding-top: 108px;
+    text-align: center;
+    line-height: 54px;
+    color: #3b3b3b;
+}
+#server .server-info{
+    font-size: 20px;
+    text-align: center;
+    color: #3b3b3b;
+}
+#server .server-time{
+    color: #188eee;
+    font-size: 60px;
+    margin: 108px auto 15px 450px;
+    display: inline-block;
+    padding-top: 11px;
+    border-top: 1px solid #ccc;
+}
+#server .server-name{
+    font-size: 17px;
+    color: #3b3b3b;
+    margin-left: 450px;
+
+}

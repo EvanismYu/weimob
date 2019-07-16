@@ -1,0 +1,17 @@
+#main-bussiness{
+    height: 220px;
+    background: url("../images/main-bussiness/bg.png");
+}
+#main-bussiness .main-bussiness-description{
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 28px;
+}
+#main-bussiness .main-bussiness-number{
+    font-size: 60px;
+}
+#main-bussiness .main-bussiness-text{
+    letter-spacing: 0;
+}

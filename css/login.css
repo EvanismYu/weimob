@@ -1,0 +1,27 @@
+#login{
+    height: 140px;
+    background-color: #007aff;
+}
+#login .login-content{
+    text-align: center;
+}
+#login .login-description{
+    font-size: 30px;
+    text-align: center;
+    line-height: 140px;
+    padding-right: 50px;
+    color: white;
+}
+#login .login-btn{
+    font-size: 20px;
+    color: white;
+    padding: 9px 42px;
+    border: 1px solid white;
+    transition: .5s;
+    border-radius: 5px;
+}
+#login .login-btn:hover{
+    background-color: white;
+    color: #007aff;
+    cursor: pointer;
+}

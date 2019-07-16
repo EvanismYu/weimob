@@ -1,0 +1,66 @@
+#character{
+    height: 885px;
+    background: url("../images/character/bg.png") no-repeat center,linear-gradient(#262730,#262730);
+}
+#character .character-title{
+    padding-top: 107px;
+    font-size: 31px;
+    color: white;
+    text-align: center;
+    line-height: 53px;
+}
+#character .character-info{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+#character .character-number{
+    margin: 0 auto;
+    padding-top: 66px;
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+#character .character-number-info{
+    color: white;
+    padding-left: 17px;
+    border-left: 8px solid #007aff;
+    font-size: 44px;
+    transform: translateX(-27px);
+}
+#character .character-number-name{
+    color: #aaaaaa;
+    font-size: 20px;
+}
+#character .character-description{
+    margin: 45px auto 0;
+    width: 1000px;
+}
+#character .character-description li{
+    margin-bottom: 20px;
+    height: 130px;
+    width: 1000px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 8px;
+}
+#character .character-description img{
+    display: inline-block;
+    float: right;
+    margin-top: 36px;
+    margin-right: 13px;
+    width: 75px;
+    transform: translateY(-99px);
+}
+#character .character-description .character-description-title{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#character .character-description .character-description-info{
+    font-size: 15px;
+    color: white;
+    padding-top: 17px;
+    padding-left: 30px;
+}

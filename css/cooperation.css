@@ -1,0 +1,155 @@
+#cooperation{
+    height: 690px;
+    width: 100%;
+    background-color: white;
+}
+#cooperation .cooperation-title{
+    font-size: 30px;
+    color: #3b3b3b;
+    padding-top: 100px;
+    text-align: center;
+}
+#cooperation .cooperation-description{
+    font-size: 19px;
+    color: #3b3b3b;
+    padding-top: 23px;
+    text-align: center;
+}
+#cooperation .cooperation-list{
+    display: flex;
+    width: 1200px;
+    height: 345px;
+    margin: 100px auto 0;
+}
+#cooperation .cooperation-list>li{
+    position: relative;
+    /*width: 375px;*/
+    height: 100%;
+    border: 1px solid #706d6b;
+
+}
+#cooperation .cooperation-list input[type="radio"]{
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    opacity: 0;
+}
+#cooperation .cooperation-list>li .inside{
+    width: 250px;
+}
+#cooperation .cooperation-list input:checked~.inside{
+    width: 450px;
+}
+#cooperation .cooperation-list input:checked{
+    z-index: -1;
+}
+#cooperation .cooperation-list input:checked~.inside .open{
+    opacity: 1;
+}
+#cooperation .cooperation-list input:checked~.inside .close{
+    display: none;
+}
+#cooperation .cooperation-list>li .close-icon{
+    margin: 42px auto 14px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/cooperation/close/icon.png");
+}
+#cooperation .cooperation-list>li:nth-child(1) .close-icon{
+    width: 40px;
+    height: 40px;
+    background-position: 0 0;
+}
+#cooperation .cooperation-list>li:nth-child(2) .close-icon{
+    width: 34px;
+    height: 43px;
+    background-position: 0 -82px;
+}
+#cooperation .cooperation-list>li:nth-child(3) .close-icon{
+    width: 70px;
+    height: 29px;
+    background-position: 0 -167px;
+}
+#cooperation .cooperation-list>li:nth-child(4) .close-icon{
+    width: 124px;
+    height: 29px;
+    background-position: 0 -218px;
+}
+#cooperation .cooperation-list>li .close-title{
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    color: #3b3b3b;
+    padding-bottom: 24px;
+}
+#cooperation .cooperation-list>li .underline{
+    width: 53px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+#cooperation .cooperation-list>li .close-item{
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    color: #706d6b;
+}
+#cooperation .cooperation-list>li .open{
+    box-sizing: border-box;
+    opacity: 0;
+    width: 450px;
+    height: 100%;
+    padding: 20px;
+}
+#cooperation .cooperation-list>li .open-icon{
+    transform: translateY(12px);
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/cooperation/close/icon.png");
+}
+#cooperation .cooperation-list>li:nth-child(1) .open-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-position: 0 -40px;
+}
+#cooperation .cooperation-list>li:nth-child(2) .open-icon{
+    display: inline-block;
+    width: 34px;
+    height: 43px;
+    background-position: 0 -124px;
+}
+#cooperation .cooperation-list>li:nth-child(3) .open-icon{
+    display: inline-block;
+    width: 70px;
+    height: 29px;
+    background-position: 0 -193px;
+}
+#cooperation .cooperation-list>li:nth-child(4) .open-icon{
+    display: inline-block;
+    width: 124px;
+    height: 29px;
+    background-position: 0 -242px;
+}
+#cooperation .cooperation-list>li .open-main-title{
+    border-bottom: 1px solid #706d6b;
+}
+#cooperation .cooperation-list>li .open-title{
+    transform: translateY(-20px);
+    font-size: 19px;
+    line-height: 80px;
+    color: #252526;
+    height: 80px;
+}
+#cooperation .cooperation-list>li .open-description{
+    padding-top: 22px;
+    font-size: 15px;
+    color: #706d6b;
+    line-height: 28px;
+}
+#cooperation .cooperation-list>li .open-link a{
+    color: #188eee;
+    font-size: 15px;
+}

@@ -1,0 +1,20 @@
+#bussiness-cooperation{
+    height: 590px;
+}
+#bussiness-cooperation p{
+    font-size: 30px;
+    line-height: 220px;
+    color: #444444;
+    text-align: center;
+}
+#bussiness-cooperation ul{
+    margin: 0 auto;
+    width: 1100px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+#bussiness-cooperation img{
+    display: inline-block;
+    height: 100px;
+}

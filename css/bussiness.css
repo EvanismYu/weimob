@@ -1,0 +1,219 @@
+#bussiness{
+    position: relative;
+    height: 860px;
+}
+#bussiness .bussiness-title{
+    padding-top: 108px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#bussiness .bussiness-solution{
+    padding-top: 23px;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+#bussiness .bussiness-list{
+    margin-top: 82px;
+    width: 122px;
+    height: 482px;
+    padding-right: 30px;
+    border-right: 5px rgba(255,255,255,.1) solid;
+}
+#bussiness .bussiness-list>li>input[type="radio"]{
+    position: absolute;
+    width: 122px;
+    height: 42px;
+    opacity: 0;
+    cursor: pointer;
+}
+#bussiness .bussiness-list>li{
+    width: 122px;
+    height: 42px;
+    line-height: 42px;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+#bussiness .bussiness-list>li:hover{
+    background-color: #188eee;
+    border-radius: 5px;
+}
+#bussiness .bussiness-list>li:hover h4{
+    font-weight: bold;
+}
+#bussiness .bussiness-list>li h4{
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+#bussiness .bussiness-list .list-right{
+    display: none;
+    padding-left: 60px;
+    position: absolute;
+    /*left: 351px;*/
+    left: 20%;
+    top: 286px;
+    width: 970px;
+    height: 495px;
+}
+#bussiness .bussiness-list input:checked~.list-right{
+    display: block;
+}
+#bussiness .bussiness-list input:checked~.bussiness-bg{
+    opacity: 1;
+}
+#bussiness .bussiness-list .list-right .list-right-tltle{
+    color: white;
+    font-size: 27px;
+}
+#bussiness .list-right .list-right-buttonone{
+    font-size: 16px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    width: 88px;
+    height: 31px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 31px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#bussiness .list-right .list-right-buttonone:hover{
+    background-color: #0a49a4;
+}
+#bussiness .list-right .list-right-buttontwo{
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #04aaee;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    width: 88px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+#bussiness .bussiness-list .list-right .list-right-buttontwo:hover{
+    background-color: #0908ff;
+}
+#bussiness .bussiness-list .list-right .list-right-description{
+    font-size: 15px;
+    color: white;
+    width: 952px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+#bussiness .icon-list{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    border-bottom: 1px dotted #ccc;
+}
+#bussiness .icon-list>li{
+    width: 80px;
+    height: 107px;
+}
+#bussiness .icon-list>li>.icon{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url("../images/bussiness/icon-list.png");
+}
+#bussiness .icon-list>li:nth-child(1)>.icon{
+    background-position: 1px -3902px;
+}
+#bussiness .icon-list>li:nth-child(2)>.icon{
+    background-position: 1px -1946px;
+}
+#bussiness .icon-list>li:nth-child(3)>.icon{
+    background-position:1px -2174px;
+}
+#bussiness .icon-list>li:nth-child(4)>.icon{
+    background-position: 1px -1124px;
+}
+#bussiness .icon-list>li:nth-child(5)>.icon{
+    background-position: 1px -824px;
+}
+#bussiness .icon-list>li:nth-child(6)>.icon{
+    background-position: 1px -1050px;
+}
+#bussiness .icon-list>li:nth-child(7)>.icon{
+    background-position: 1px -1800px;
+}
+#bussiness .icon-list>li:nth-child(8)>.icon{
+    background-position: 1px -1271px;
+}
+#bussiness .icon-list>li p{
+    color: white;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+#bussiness .friendly-link{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+#bussiness .friendly-link>li{
+    position: relative;
+    width: 182px;
+    height: 182px;
+    transition: .5s;
+    overflow: hidden;
+}
+#bussiness .friendly-link>li:hover .link-cover{
+    top: 0;
+    opacity: 1;
+    border-radius: 5px;
+}
+#bussiness .link-cover img{
+    border-radius: 5px;
+}
+#bussiness .friendly-link>li .link-cover{
+    opacity: 0;
+    position: absolute;
+    top: 270px;
+    left: 0;
+    border-radius: 5px;
+    width: 182px;
+    height: 182px;
+    transition: .6s;
+}
+#bussiness .bussiness-list .bussiness-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    transition: .4s;
+
+}
+#bussiness li:nth-child(1) .bussiness-bg{
+    background: url("../images/bussiness/bg_ds.jpg") no-repeat 0 0/1895px 1300px;
+}
+#bussiness li:nth-child(2) .bussiness-bg{
+    background: url("../images/bussiness/bg_cy.jpg") no-repeat 0 0/1895px 1300px;
+}
+#bussiness li:nth-child(3) .bussiness-bg{
+    background: url("../images/bussiness/bg_ls.jpg") no-repeat 0 0/1895px 1300px;
+}
+#bussiness li:nth-child(4) .bussiness-bg{
+    background: url("../images/bussiness/bg_my.jpg") no-repeat 0 0/1895px 1300px;
+}
+#bussiness li:nth-child(5) .bussiness-bg{
+    background: url("../images/bussiness/bg_hotel.jpg") no-repeat 0 0/1895px 1300px;
+}
+#bussiness li:nth-child(6) .bussiness-bg{
+    background: url("../images/bussiness/bg_travel.png") no-repeat 0 0/1895px 1300px;
+}
